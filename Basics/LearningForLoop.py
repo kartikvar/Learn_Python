@@ -10,3 +10,9 @@ my_list = ["name", 1, 2.9, False]
 print("****************** Printing List ******************")
 for i in my_list:
     print(i)
+
+print("****************** Printing Sum ******************")
+total = 0
+for i in range(1, 5):
+    total = total + i
+print("Sum is --> {}".format(total))
